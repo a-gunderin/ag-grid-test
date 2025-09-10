@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Commitment"
+  },
+  {
+    "id": 2,
+    "name": "Drawdown"
+  },
+  {
+    "id": 3,
+    "name": "Principal Repayment"
+  },
+  {
+    "id": 4,
+    "name": "Interest Payment"
+  },
+  {
+    "id": 5,
+    "name": "Fee Payment"
+  },
+  {
+    "id": 6,
+    "name": "Commitment Increase"
+  },
+  {
+    "id": 7,
+    "name": "Commitment Decrease"
+  },
+  {
+    "id": 8,
+    "name": "Buy"
+  },
+  {
+    "id": 9,
+    "name": "Sell"
+  },
+  {
+    "id": 10,
+    "name": "Short"
+  },
+  {
+    "id": 11,
+    "name": "Cover Short"
+  },
+  {
+    "id": 12,
+    "name": "Contribution"
+  },
+  {
+    "id": 13,
+    "name": "Withdrawal"
+  },
+  {
+    "id": 14,
+    "name": "Rollover Close"
+  },
+  {
+    "id": 15,
+    "name": "Rollover Open"
+  },
+  {
+    "id": 16,
+    "name": "Payment In Kind"
+  },
+  {
+    "id": 17,
+    "name": "Assignment"
+  },
+  {
+    "id": 18,
+    "name": "Participation"
+  },
+  {
+    "id": 19,
+    "name": "Conversion Group"
+  },
+  {
+    "id": 20,
+    "name": "Conversion From"
+  },
+  {
+    "id": 21,
+    "name": "Conversion To"
+  },
+  {
+    "id": 101,
+    "name": "Transfer"
+  }
+]

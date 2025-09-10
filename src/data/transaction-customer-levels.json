@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Borrower"
+  },
+  {
+    "id": 2,
+    "name": "LenderShare"
+  },
+  {
+    "id": 3,
+    "name": "Grantor"
+  },
+  {
+    "id": 4,
+    "name": "Participant"
+  },
+  {
+    "id": 5,
+    "name": "Assignor"
+  },
+  {
+    "id": 6,
+    "name": "Assignee"
+  },
+  {
+    "id": 7,
+    "name": "Payee"
+  },
+  {
+    "id": 8,
+    "name": "Payer"
+  },
+  {
+    "id": 9,
+    "name": "Transfer Payer"
+  },
+  {
+    "id": 10,
+    "name": "Transfer Payee"
+  }
+]

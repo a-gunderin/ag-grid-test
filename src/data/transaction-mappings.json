@@ -1,0 +1,672 @@
+[
+  {
+    "id": 1,
+    "name": "Commitment Borrower",
+    "roleId": 1,
+    "transactionTypeId": 1,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 2,
+    "name": "Drawdown Borrower",
+    "roleId": 1,
+    "transactionTypeId": 2,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 3,
+    "name": "Principal Payment Borrower",
+    "roleId": 1,
+    "transactionTypeId": 3,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 4,
+    "name": "Interest Payment Borrower",
+    "roleId": 1,
+    "transactionTypeId": 4,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 5,
+    "name": "Fee Payment Borrower",
+    "roleId": 1,
+    "transactionTypeId": 5,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 6,
+    "name": "Commitment Increase Borrower",
+    "roleId": 1,
+    "transactionTypeId": 6,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 7,
+    "name": "Commitment Decrease Borrower",
+    "roleId": 1,
+    "transactionTypeId": 7,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 8,
+    "name": "Commitment Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 1,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 9,
+    "name": "Drawdown Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 2,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 10,
+    "name": "Principal Repayment Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 3,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 11,
+    "name": "Interest Payment Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 4,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 12,
+    "name": "Fee Payment Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 5,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 13,
+    "name": "Commitment Increase Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 6,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 14,
+    "name": "Commitment Decrease Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 7,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 15,
+    "name": "Commitment Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 1,
+    "contraRequired": false
+  },
+  {
+    "id": 16,
+    "name": "Drawdown Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 2,
+    "contraRequired": false
+  },
+  {
+    "id": 17,
+    "name": "Principal Repayment Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 18,
+    "name": "Interest Payment Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 4,
+    "contraRequired": false
+  },
+  {
+    "id": 19,
+    "name": "Fee Payment Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 5,
+    "contraRequired": false
+  },
+  {
+    "id": 20,
+    "name": "Commitment Increase Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 6,
+    "contraRequired": false
+  },
+  {
+    "id": 21,
+    "name": "Commitment Decrease Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 7,
+    "contraRequired": false
+  },
+  {
+    "id": 22,
+    "name": "Buy Portfolio Investment",
+    "roleId": 5,
+    "transactionTypeId": 8,
+    "contraRequired": false
+  },
+  {
+    "id": 23,
+    "name": "Sell Portfolio Investment",
+    "roleId": 5,
+    "transactionTypeId": 9,
+    "contraRequired": false
+  },
+  {
+    "id": 24,
+    "name": "Short Portfolio Investment",
+    "roleId": 5,
+    "transactionTypeId": 10,
+    "contraRequired": false
+  },
+  {
+    "id": 25,
+    "name": "Cover Short Portfolio Investment",
+    "roleId": 5,
+    "transactionTypeId": 11,
+    "contraRequired": false
+  },
+  {
+    "id": 26,
+    "name": "Investment Contribution",
+    "roleId": 6,
+    "transactionTypeId": 12,
+    "contraRoleId": 7,
+    "contraRequired": true
+  },
+  {
+    "id": 27,
+    "name": "Investment Withdrawal",
+    "roleId": 6,
+    "transactionTypeId": 13,
+    "contraRoleId": 7,
+    "contraRequired": true
+  },
+  {
+    "id": 28,
+    "name": "Investment Drawdown",
+    "roleId": 6,
+    "transactionTypeId": 2,
+    "contraRoleId": 7,
+    "contraRequired": true
+  },
+  {
+    "id": 29,
+    "name": "Investment Principal Repayment",
+    "roleId": 6,
+    "transactionTypeId": 3,
+    "contraRoleId": 7,
+    "contraRequired": true
+  },
+  {
+    "id": 30,
+    "name": "Capital Contribution",
+    "roleId": 7,
+    "transactionTypeId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 31,
+    "name": "Capital Withdrawal",
+    "roleId": 7,
+    "transactionTypeId": 13,
+    "contraRequired": false
+  },
+  {
+    "id": 32,
+    "name": "Capital Drawdown",
+    "roleId": 7,
+    "transactionTypeId": 2,
+    "contraRequired": false
+  },
+  {
+    "id": 33,
+    "name": "Capital Principal Repayment",
+    "roleId": 7,
+    "transactionTypeId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 34,
+    "name": "Rollover Close Borrower",
+    "roleId": 1,
+    "transactionTypeId": 14,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 35,
+    "name": "Rollover Close Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 14,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 36,
+    "name": "Rollover Close Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 14,
+    "contraRequired": false
+  },
+  {
+    "id": 37,
+    "name": "Rollover Open Borrower",
+    "roleId": 1,
+    "transactionTypeId": 15,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 38,
+    "name": "Rollover Open Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 15,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 39,
+    "name": "Rollover Open Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 15,
+    "contraRequired": false
+  },
+  {
+    "id": 40,
+    "name": "Payment In Kind Borrower",
+    "roleId": 1,
+    "transactionTypeId": 16,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 41,
+    "name": "Payment In Kind Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 16,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 42,
+    "name": "Payment In Kind Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 16,
+    "contraRequired": false
+  },
+  {
+    "id": 43,
+    "name": "Assignment Assignor",
+    "roleId": 9,
+    "transactionTypeId": 17,
+    "contraRoleId": 10,
+    "contraRequired": false
+  },
+  {
+    "id": 44,
+    "name": "Assignment Assignee",
+    "roleId": 10,
+    "transactionTypeId": 17,
+    "contraRequired": false
+  },
+  {
+    "id": 45,
+    "name": "Participation Grantor",
+    "roleId": 11,
+    "transactionTypeId": 18,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 46,
+    "name": "Drawdown Grantor",
+    "roleId": 11,
+    "transactionTypeId": 2,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 47,
+    "name": "Principal Repayment Grantor",
+    "roleId": 11,
+    "transactionTypeId": 3,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 48,
+    "name": "Interest Payment Grantor",
+    "roleId": 11,
+    "transactionTypeId": 4,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 49,
+    "name": "Fee Payment Grantor",
+    "roleId": 11,
+    "transactionTypeId": 5,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 50,
+    "name": "Commitment Increase Grantor",
+    "roleId": 11,
+    "transactionTypeId": 6,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 51,
+    "name": "Commitment Decrease Grantor",
+    "roleId": 11,
+    "transactionTypeId": 7,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 52,
+    "name": "Rollover Close Grantor",
+    "roleId": 11,
+    "transactionTypeId": 14,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 53,
+    "name": "Rollover Open Grantor",
+    "roleId": 11,
+    "transactionTypeId": 15,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 54,
+    "name": "Payment In Kind Grantor",
+    "roleId": 11,
+    "transactionTypeId": 16,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 55,
+    "name": "Participation Participant",
+    "roleId": 12,
+    "transactionTypeId": 18,
+    "contraRequired": false
+  },
+  {
+    "id": 56,
+    "name": "Drawdown Participant",
+    "roleId": 12,
+    "transactionTypeId": 2,
+    "contraRequired": false
+  },
+  {
+    "id": 57,
+    "name": "Principal Repayment Participant",
+    "roleId": 12,
+    "transactionTypeId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 58,
+    "name": "Interest Payment Participant",
+    "roleId": 12,
+    "transactionTypeId": 4,
+    "contraRequired": false
+  },
+  {
+    "id": 59,
+    "name": "Fee Payment Participant",
+    "roleId": 12,
+    "transactionTypeId": 5,
+    "contraRequired": false
+  },
+  {
+    "id": 60,
+    "name": "Commitment Increase Participant",
+    "roleId": 12,
+    "transactionTypeId": 6,
+    "contraRequired": false
+  },
+  {
+    "id": 61,
+    "name": "Commitment Decrease Participant",
+    "roleId": 12,
+    "transactionTypeId": 7,
+    "contraRequired": false
+  },
+  {
+    "id": 62,
+    "name": "Rollover Close Participant",
+    "roleId": 12,
+    "transactionTypeId": 14,
+    "contraRequired": false
+  },
+  {
+    "id": 63,
+    "name": "Rollover Open Participant",
+    "roleId": 12,
+    "transactionTypeId": 15,
+    "contraRequired": false
+  },
+  {
+    "id": 64,
+    "name": "Payment In Kind Participant",
+    "roleId": 12,
+    "transactionTypeId": 16,
+    "contraRequired": false
+  },
+  {
+    "id": 65,
+    "name": "Drawdown Assignor",
+    "roleId": 9,
+    "transactionTypeId": 2,
+    "contraRoleId": 10,
+    "contraRequired": false
+  },
+  {
+    "id": 66,
+    "name": "Drawdown Assignee",
+    "roleId": 10,
+    "transactionTypeId": 2,
+    "contraRequired": false
+  },
+  {
+    "id": 67,
+    "name": "Rollover Open Assignor",
+    "roleId": 9,
+    "transactionTypeId": 15,
+    "contraRoleId": 10,
+    "contraRequired": false
+  },
+  {
+    "id": 68,
+    "name": "Rollover Open Assignee",
+    "roleId": 10,
+    "transactionTypeId": 15,
+    "contraRequired": false
+  },
+  {
+    "id": 70,
+    "name": "Fee Payment Payee",
+    "roleId": 14,
+    "transactionTypeId": 5,
+    "contraRequired": false
+  },
+  {
+    "id": 71,
+    "name": "Fee Payment Payer",
+    "roleId": 15,
+    "transactionTypeId": 5,
+    "contraRequired": false
+  },
+  {
+    "id": 72,
+    "name": "Conversion Group Borrower",
+    "roleId": 1,
+    "transactionTypeId": 19,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 73,
+    "name": "Conversion Group Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 19,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 74,
+    "name": "Conversion Group Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 19,
+    "contraRequired": false
+  },
+  {
+    "id": 75,
+    "name": "Conversion Group Grantor",
+    "roleId": 11,
+    "transactionTypeId": 19,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 76,
+    "name": "Conversion Group Participant",
+    "roleId": 12,
+    "transactionTypeId": 19,
+    "contraRequired": false
+  },
+  {
+    "id": 77,
+    "name": "Conversion From Borrower",
+    "roleId": 1,
+    "transactionTypeId": 20,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 78,
+    "name": "Conversion From Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 20,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 79,
+    "name": "Conversion From Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 20,
+    "contraRequired": false
+  },
+  {
+    "id": 80,
+    "name": "Conversion From Grantor",
+    "roleId": 11,
+    "transactionTypeId": 20,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 81,
+    "name": "Conversion From Participant",
+    "roleId": 12,
+    "transactionTypeId": 20,
+    "contraRequired": false
+  },
+  {
+    "id": 82,
+    "name": "Conversion To Borrower",
+    "roleId": 1,
+    "transactionTypeId": 21,
+    "contraRoleId": 2,
+    "contraRequired": true
+  },
+  {
+    "id": 83,
+    "name": "Conversion To Lender Share",
+    "roleId": 2,
+    "transactionTypeId": 21,
+    "contraRoleId": 3,
+    "contraRequired": false
+  },
+  {
+    "id": 84,
+    "name": "Conversion To Sub Lender Share",
+    "roleId": 3,
+    "transactionTypeId": 21,
+    "contraRequired": false
+  },
+  {
+    "id": 85,
+    "name": "Conversion To Grantor",
+    "roleId": 11,
+    "transactionTypeId": 21,
+    "contraRoleId": 12,
+    "contraRequired": false
+  },
+  {
+    "id": 86,
+    "name": "Conversion To Participant",
+    "roleId": 12,
+    "transactionTypeId": 21,
+    "contraRequired": false
+  },
+  {
+    "id": 87,
+    "name": "Conversion To Assignor",
+    "roleId": 9,
+    "transactionTypeId": 21,
+    "contraRoleId": 10,
+    "contraRequired": false
+  },
+  {
+    "id": 88,
+    "name": "Conversion To Assignee",
+    "roleId": 10,
+    "transactionTypeId": 21,
+    "contraRequired": false
+  },
+  {
+    "id": 101,
+    "name": "Transfer Payment Payer",
+    "roleId": 15,
+    "transactionTypeId": 101,
+    "contraRequired": false
+  },
+  {
+    "id": 102,
+    "name": "Transfer Payment Payee",
+    "roleId": 14,
+    "transactionTypeId": 101,
+    "contraRequired": false
+  }
+]

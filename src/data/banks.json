@@ -1,0 +1,605 @@
+[
+  {
+    "id": 1,
+    "name": "Bank of America, N.A.",
+    "code": "BOFA",
+    "bankBranches": [],
+    "createdOnUtc": "2023-06-23T08:41:37",
+    "updatedOnUtc": "2023-06-23T08:58:53",
+    "createdBy": "5aa99989-f90e-404b-9864-89cfafb1b155"
+  },
+  {
+    "id": 2,
+    "name": "Barclays Bank PLC",
+    "code": "BARC",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 3,
+    "name": "Citibank N.A.",
+    "code": "CITI",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 4,
+    "name": "Credit Suisse AG",
+    "code": "CRES",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 5,
+    "name": "Deutsche Bank AG",
+    "code": "DEUT",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 6,
+    "name": "FirstCaribbean International Bank",
+    "code": "FCIB",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 7,
+    "name": "First Republic Bank",
+    "code": "FRBB",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 8,
+    "name": "Goldman Sachs And Co. YYYY",
+    "code": "GOLD",
+    "bankBranches": [],
+    "createdOnUtc": "2022-07-29T11:02:26",
+    "updatedOnUtc": "2023-07-19T13:50:25",
+    "createdBy": "faf61aa0-2b66-4064-8899-b32860938332"
+  },
+  {
+    "id": 10,
+    "name": "JPMorgan Chase Bank, N.A.",
+    "code": "CHAS",
+    "bankBranches": [],
+    "createdOnUtc": "2023-06-29T12:34:18",
+    "updatedOnUtc": "2023-06-30T13:08:38",
+    "createdBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 11,
+    "name": "Keybank",
+    "code": "KEYB",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 12,
+    "name": "Royal Bank of Canada",
+    "code": "ROYC",
+    "bankBranches": [],
+    "createdOnUtc": "2023-06-30T09:10:25",
+    "updatedOnUtc": "2023-06-30T09:11:10",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 13,
+    "name": "Silicon Valley Bank",
+    "code": "SVBK",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 14,
+    "name": "State Street Bank and Trust Co.",
+    "code": "SBOS",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 15,
+    "name": "Sterling National Bank",
+    "code": "STET",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 16,
+    "name": "The Bank of New York",
+    "code": "IRVT",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 17,
+    "name": "U.S. Bank",
+    "code": "USBK",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 18,
+    "name": "UBS AG upd",
+    "code": "UBSW",
+    "bankBranches": [],
+    "createdOnUtc": "2024-01-16T12:40:04",
+    "updatedOnUtc": "2024-01-16T12:40:04",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 19,
+    "name": "Union Bank N.A.",
+    "code": "BOFC",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 20,
+    "name": "Wells Fargo Bank, N.A.",
+    "code": "WFBI",
+    "bankBranches": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "id": 22,
+    "name": "ATM New Bank",
+    "code": "ATMNEW!",
+    "bankBranches": [],
+    "createdOnUtc": "2022-07-29T12:22:28",
+    "updatedOnUtc": "2024-10-10T18:25:14",
+    "createdBy": "faf61aa0-2b66-4064-8899-b32860938332",
+    "updatedBy": "faf61aa0-2b66-4064-8899-b32860938332"
+  },
+  {
+    "id": 26,
+    "name": "Bank A updated1TRIF",
+    "code": "Code1TRIF",
+    "bankBranches": [],
+    "createdOnUtc": "2022-07-31T12:46:18",
+    "updatedOnUtc": "2022-07-31T14:03:23",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 27,
+    "name": "Bank B1",
+    "code": "QWE1231",
+    "bankBranches": [],
+    "createdOnUtc": "2022-07-31T12:51:21",
+    "updatedOnUtc": "2022-08-25T10:55:22",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 50,
+    "name": "Julia's BankUPD",
+    "code": "CODE123UPD",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-08T14:35:36",
+    "updatedOnUtc": "2022-08-23T10:51:52",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 51,
+    "name": "Updated after notice1",
+    "code": "444444",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-08T14:35:53",
+    "updatedOnUtc": "2022-08-26T09:41:40",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 52,
+    "name": "🚫 East Coast Bank for BIG UI Testing",
+    "code": "ECBBIG",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-09T10:27:20",
+    "updatedOnUtc": "2022-08-09T10:27:20",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+  },
+  {
+    "id": 53,
+    "name": "Bank for deleteing UPD1",
+    "code": "123UPD1",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-09T11:49:13",
+    "updatedOnUtc": "2023-06-06T19:54:01",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "74d1468c-0ccd-41a8-9408-5bd5817b8af5"
+  },
+  {
+    "id": 54,
+    "name": "New Bank for testintgU",
+    "code": "CODE000001",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-23T10:16:50",
+    "updatedOnUtc": "2023-07-07T15:53:49",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "faf61aa0-2b66-4064-8899-b32860938332"
+  },
+  {
+    "id": 55,
+    "name": "QWERTY131",
+    "code": "new31",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-23T11:17:44",
+    "updatedOnUtc": "2022-08-25T10:56:06",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 60,
+    "name": "123",
+    "code": "456",
+    "bankBranches": [],
+    "createdOnUtc": "2022-08-31T11:09:22",
+    "updatedOnUtc": "2023-11-10T11:02:23",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 67,
+    "name": "kate bank",
+    "code": "KBYU",
+    "bankBranches": [],
+    "createdOnUtc": "2022-09-08T11:46:00",
+    "updatedOnUtc": "2022-09-08T11:46:00",
+    "createdBy": "99876d16-957f-4288-9a39-b302593468bf",
+    "updatedBy": "99876d16-957f-4288-9a39-b302593468bf"
+  },
+  {
+    "id": 69,
+    "name": "Bank TE 1/12",
+    "code": "877812",
+    "bankBranches": [],
+    "createdOnUtc": "2022-09-20T14:50:40",
+    "updatedOnUtc": "2023-06-23T07:43:27",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 70,
+    "name": "Bank Of New York Mellon",
+    "code": "BONY",
+    "bankBranches": [],
+    "createdOnUtc": "2022-10-20T11:38:45",
+    "updatedOnUtc": "2023-07-20T11:19:08",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 73,
+    "name": "Bank A",
+    "code": "88888888",
+    "bankBranches": [],
+    "createdOnUtc": "2023-01-18T09:05:03",
+    "updatedOnUtc": "2023-07-25T10:49:02",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 74,
+    "name": "Morgan Stanley",
+    "code": "MSNY",
+    "bankBranches": [],
+    "createdOnUtc": "2023-01-31T10:16:12",
+    "updatedOnUtc": "2023-01-31T10:16:12",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+  },
+  {
+    "id": 75,
+    "name": "MUFG BANK",
+    "code": "BOTK",
+    "bankBranches": [],
+    "createdOnUtc": "2023-01-31T10:24:02",
+    "updatedOnUtc": "2023-01-31T10:24:02",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+  },
+  {
+    "id": 76,
+    "name": "BNP PARIBAS 1",
+    "code": "BNPA1",
+    "bankBranches": [],
+    "createdOnUtc": "2023-01-31T10:26:56",
+    "updatedOnUtc": "2024-01-29T16:25:33",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 77,
+    "name": "Mizuho Bank",
+    "code": "MHCB",
+    "bankBranches": [],
+    "createdOnUtc": "2023-01-31T10:29:17",
+    "updatedOnUtc": "2023-01-31T10:29:17",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+  },
+  {
+    "id": 78,
+    "name": "SOCIETE GENERALE SCF",
+    "code": "GSCF",
+    "bankBranches": [],
+    "createdOnUtc": "2023-01-31T10:31:19",
+    "updatedOnUtc": "2023-01-31T10:31:19",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+  },
+  {
+    "id": 80,
+    "name": "Capital One N.A.",
+    "code": "NFBK",
+    "bankBranches": [],
+    "createdOnUtc": "2023-03-02T15:46:07",
+    "updatedOnUtc": "2023-03-02T15:46:07",
+    "createdBy": "6129094b-16d3-46d3-9e86-88b435fe8222",
+    "updatedBy": "6129094b-16d3-46d3-9e86-88b435fe8222"
+  },
+  {
+    "id": 81,
+    "name": "NK Test Bank 01",
+    "code": "NKTB01",
+    "bankBranches": [],
+    "createdOnUtc": "2023-04-25T15:30:10",
+    "updatedOnUtc": "2023-04-25T15:30:10",
+    "createdBy": "41fc87f6-ef3d-48aa-8b3b-d606e24ed8ca",
+    "updatedBy": "41fc87f6-ef3d-48aa-8b3b-d606e24ed8ca"
+  },
+  {
+    "id": 82,
+    "name": "Capital One",
+    "code": "NFBK",
+    "bankBranches": [],
+    "createdOnUtc": "2023-04-26T13:21:31",
+    "updatedOnUtc": "2023-04-26T13:21:31",
+    "createdBy": "6129094b-16d3-46d3-9e86-88b435fe8222",
+    "updatedBy": "6129094b-16d3-46d3-9e86-88b435fe8222"
+  },
+  {
+    "id": 83,
+    "name": "Test Bank ",
+    "code": "1234567",
+    "bankBranches": [],
+    "createdOnUtc": "2023-05-11T09:17:23",
+    "updatedOnUtc": "2023-05-11T09:17:23",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 84,
+    "name": "Bank to test approving",
+    "code": "A123456",
+    "bankBranches": [],
+    "createdOnUtc": "2023-05-23T13:46:06",
+    "updatedOnUtc": "2023-07-04T19:44:54",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 86,
+    "name": "Bank B",
+    "code": "3333",
+    "bankBranches": [],
+    "createdOnUtc": "2023-05-24T13:38:36",
+    "updatedOnUtc": "2023-07-25T10:38:34",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 87,
+    "name": "Bank of XH",
+    "code": "0192837465",
+    "bankBranches": [],
+    "createdOnUtc": "2023-05-26T00:15:37",
+    "updatedOnUtc": "2023-07-05T13:54:24",
+    "createdBy": "4c61018d-4db3-4968-a547-b2883d057c31",
+    "updatedBy": "faf61aa0-2b66-4064-8899-b32860938332"
+  },
+  {
+    "id": 88,
+    "name": "Newly created bank",
+    "code": "99999",
+    "bankBranches": [],
+    "createdOnUtc": "2023-06-05T17:56:57",
+    "updatedOnUtc": "2023-07-04T12:27:16",
+    "createdBy": "4c61018d-4db3-4968-a547-b2883d057c31",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 89,
+    "name": "AlexS Bank",
+    "code": "ALEXS",
+    "bankBranches": [],
+    "createdOnUtc": "2023-06-06T08:16:19",
+    "updatedOnUtc": "2023-07-25T10:20:26",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 90,
+    "name": "Pecao Bank",
+    "code": "PKO123",
+    "bankBranches": [],
+    "createdOnUtc": "2023-07-03T16:13:05",
+    "updatedOnUtc": "2023-07-12T20:20:14",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 91,
+    "name": "Test bank 3",
+    "code": "123",
+    "bankBranches": [],
+    "createdOnUtc": "2023-09-25T17:36:32",
+    "updatedOnUtc": "2024-10-16T23:00:20",
+    "createdBy": "4c61018d-4db3-4968-a547-b2883d057c31",
+    "updatedBy": "9e5a5033-b1d1-4c7d-bd29-67a87c6d38ef"
+  },
+  {
+    "id": 92,
+    "name": "test bank",
+    "code": "123",
+    "bankBranches": [],
+    "createdOnUtc": "2024-01-16T12:40:58",
+    "updatedOnUtc": "2024-01-16T12:40:58",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 94,
+    "name": "SM bank u",
+    "code": "123",
+    "bankBranches": [],
+    "createdOnUtc": "2024-01-29T11:45:32",
+    "updatedOnUtc": "2024-01-29T11:45:43",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 98,
+    "name": "XH New Bank X",
+    "code": "XHNB",
+    "bankBranches": [],
+    "createdOnUtc": "2024-02-09T15:22:21",
+    "updatedOnUtc": "2024-02-09T15:23:12",
+    "createdBy": "faf61aa0-2b66-4064-8899-b32860938332",
+    "updatedBy": "faf61aa0-2b66-4064-8899-b32860938332"
+  },
+  {
+    "id": 99,
+    "name": "1 test bank",
+    "code": "2323",
+    "bankBranches": [],
+    "createdOnUtc": "2024-08-05T14:47:10",
+    "updatedOnUtc": "2024-08-05T14:47:10",
+    "createdBy": "d19be937-36c0-4012-a691-c7e28de136eb",
+    "updatedBy": "d19be937-36c0-4012-a691-c7e28de136eb"
+  },
+  {
+    "id": 100,
+    "name": "New Bank",
+    "code": "NewBank",
+    "bankBranches": [],
+    "createdOnUtc": "2024-08-27T10:35:19",
+    "updatedOnUtc": "2024-08-27T10:35:19",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+  },
+  {
+    "id": 101,
+    "name": "Y Bank with empty data",
+    "code": "1234",
+    "bankBranches": [],
+    "createdOnUtc": "2024-09-03T12:08:26",
+    "updatedOnUtc": "2024-09-03T12:08:26",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 102,
+    "name": "Bank for approval",
+    "code": "1215",
+    "bankBranches": [],
+    "createdOnUtc": "2024-09-10T11:10:35",
+    "updatedOnUtc": "2024-10-16T10:58:13",
+    "createdBy": "2a4837a2-cbcd-4f2b-8ad1-2661c87112fa",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 103,
+    "name": "Bank to test upd1",
+    "code": "123",
+    "bankBranches": [],
+    "createdOnUtc": "2024-10-04T13:00:55",
+    "updatedOnUtc": "2024-10-04T13:02:22",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a",
+    "updatedBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 104,
+    "name": "Don Beeg Bank",
+    "code": "123",
+    "bankBranches": [],
+    "createdOnUtc": "2024-10-15T23:26:36",
+    "createdBy": "9e5a5033-b1d1-4c7d-bd29-67a87c6d38ef"
+  },
+  {
+    "id": 105,
+    "name": "for self approval",
+    "code": "code",
+    "bankBranches": [],
+    "createdOnUtc": "2024-10-23T15:11:57",
+    "createdBy": "ecbe4749-603c-42b0-80f8-d8d0dc0aae9a"
+  },
+  {
+    "id": 106,
+    "name": "Test me1",
+    "code": "CORE12",
+    "bankBranches": [],
+    "createdOnUtc": "2024-10-24T11:22:12",
+    "updatedOnUtc": "2024-10-24T11:32:12",
+    "createdBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9",
+    "updatedBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 108,
+    "name": "Australia and New Zealand Banking Group Limited",
+    "code": "ANZB",
+    "bankBranches": [],
+    "createdOnUtc": "2024-11-18T09:47:17",
+    "createdBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  },
+  {
+    "id": 110,
+    "name": "Connect One",
+    "code": "CONB",
+    "bankBranches": [],
+    "createdOnUtc": "2025-06-16T20:46:59",
+    "createdBy": "6129094b-16d3-46d3-9e86-88b435fe8222"
+  },
+  {
+    "id": 111,
+    "name": "Connect One",
+    "code": "CONB",
+    "bankBranches": [],
+    "createdOnUtc": "2025-06-16T20:47:05",
+    "createdBy": "6129094b-16d3-46d3-9e86-88b435fe8222"
+  },
+  {
+    "id": 112,
+    "name": "MVB",
+    "code": "MVB",
+    "bankBranches": [],
+    "createdOnUtc": "2025-06-16T20:47:38",
+    "createdBy": "6129094b-16d3-46d3-9e86-88b435fe8222"
+  },
+  {
+    "id": 113,
+    "name": "MVB",
+    "code": "MVB",
+    "bankBranches": [],
+    "createdOnUtc": "2025-06-16T20:48:12",
+    "createdBy": "6129094b-16d3-46d3-9e86-88b435fe8222"
+  },
+  {
+    "id": 114,
+    "name": "NK Test Bank 02",
+    "code": "NKTB02",
+    "bankBranches": [],
+    "createdOnUtc": "2025-06-20T10:12:50",
+    "createdBy": "41fc87f6-ef3d-48aa-8b3b-d606e24ed8ca"
+  },
+  {
+    "id": 115,
+    "name": "NBH Bank",
+    "code": "NBH",
+    "bankBranches": [],
+    "createdOnUtc": "2025-09-05T08:36:18",
+    "createdBy": "1ea447cd-fa2c-4b89-85c9-3346dd98d0a9"
+  }
+]

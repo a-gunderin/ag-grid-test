@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "Borrower"
+  },
+  {
+    "id": 2,
+    "name": "Lender"
+  },
+  {
+    "id": 3,
+    "name": "Sub Lender"
+  },
+  {
+    "id": 4,
+    "name": "Agent"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Investment"
+  },
+  {
+    "id": 6,
+    "name": "Associated Entity Parent"
+  },
+  {
+    "id": 7,
+    "name": "Associated Entity Subsidiary"
+  },
+  {
+    "id": 8,
+    "name": "Guarantor"
+  },
+  {
+    "id": 9,
+    "name": "Assignor"
+  },
+  {
+    "id": 10,
+    "name": "Assignee"
+  },
+  {
+    "id": 11,
+    "name": "Grantor"
+  },
+  {
+    "id": 12,
+    "name": "Participant"
+  },
+  {
+    "id": 13,
+    "name": "Issuer"
+  },
+  {
+    "id": 14,
+    "name": "Payee"
+  },
+  {
+    "id": 15,
+    "name": "Payer"
+  },
+  {
+    "id": 16,
+    "name": "Servicer"
+  },
+  {
+    "id": 100,
+    "name": "Not assigned"
+  }
+]

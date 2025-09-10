@@ -1,0 +1,86 @@
+[
+  {
+    "id": 2040,
+    "name": "Moon Base",
+    "childIds": [],
+    "dealId": 1485,
+    "instrumentTypeId": 2,
+    "instrumentSubTypeId": 13,
+    "originalAmount": 1,
+    "currencyCode": "USD",
+    "maturityDate": "2040-01-01",
+    "issueDate": "2024-01-01",
+    "lienTypeId": 1,
+    "rateOptionIds": [
+      1929
+    ],
+    "instrumentIdentifiers": [],
+    "amortizationIds": [],
+    "callPutScheduleItemIds": [],
+    "amortizations": [],
+    "callPutScheduleItems": [],
+    "lenderAllocations": [],
+    "facilityFeeIds": [],
+    "pikReducesUnfunded": false,
+    "createdOnUtc": "2024-10-30T07:14:23",
+    "updatedOnUtc": "2024-10-30T07:14:23",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "isUnitranche": false,
+    "unitrancheBuyOutOption": false,
+    "unitrancheRightForFirstRefusal": false,
+    "approvalStatus": 1
+  },
+  {
+    "id": 2041,
+    "name": "Moon Stone 1",
+    "childIds": [],
+    "dealId": 1489,
+    "instrumentTypeId": 2,
+    "instrumentSubTypeId": 13,
+    "originalAmount": 1,
+    "currencyCode": "USD",
+    "maturityDate": "2040-01-01",
+    "issueDate": "2022-01-01",
+    "lienTypeId": 1,
+    "rateOptionIds": [
+      1931,
+      2102,
+      2399,
+      2443
+    ],
+    "instrumentIdentifiers": [
+      {
+        "id": 287,
+        "value": "111111",
+        "identifierTypeId": 35,
+        "loanInstrumentId": 2041,
+        "createdOnUtc": "2025-07-23T11:01:28",
+        "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84"
+      }
+    ],
+    "amortizationIds": [],
+    "callPutScheduleItemIds": [],
+    "amortizations": [],
+    "callPutScheduleItems": [],
+    "lenderAllocations": [],
+    "facilityFeeIds": [
+      2754,
+      2755,
+      3073,
+      3074,
+      3076,
+      3095
+    ],
+    "pikReducesUnfunded": false,
+    "createdOnUtc": "2024-10-30T07:37:17",
+    "updatedOnUtc": "2025-08-08T11:12:05",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "isUnitranche": false,
+    "unitrancheBuyOutOption": false,
+    "unitrancheRightForFirstRefusal": false,
+    "comment": "",
+    "approvalStatus": 1
+  }
+]

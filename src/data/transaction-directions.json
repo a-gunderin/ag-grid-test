@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "payerRoleId": 1,
+    "recipientRoleId": 2,
+    "directionName": "Borrower to Lender"
+  },
+  {
+    "id": 2,
+    "payerRoleId": 2,
+    "recipientRoleId": 1,
+    "directionName": "Lender to Borrower"
+  },
+  {
+    "id": 3,
+    "payerRoleId": 11,
+    "recipientRoleId": 12,
+    "directionName": "Grantor to Participant"
+  },
+  {
+    "id": 4,
+    "payerRoleId": 12,
+    "recipientRoleId": 11,
+    "directionName": "Participant to Grantor"
+  },
+  {
+    "id": 5,
+    "payerRoleId": 1,
+    "recipientRoleId": 4,
+    "directionName": "Borrower to Agent"
+  },
+  {
+    "id": 6,
+    "payerRoleId": 4,
+    "recipientRoleId": 1,
+    "directionName": "Agent to Borrower"
+  },
+  {
+    "id": 20,
+    "directionName": "To customer"
+  },
+  {
+    "id": 21,
+    "directionName": "From customer"
+  }
+]

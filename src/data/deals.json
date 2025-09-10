@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1030,
+    "entitySourceId": 1,
+    "name": "Cash Transfer",
+    "typeId": 1,
+    "instrumentIds": [],
+    "instruments": [],
+    "dealCustomerRoles": [],
+    "createdBy": "00000000-0000-0000-0000-000000000000",
+    "updatedBy": "00000000-0000-0000-0000-000000000000",
+    "approvalStatus": 2,
+    "approvedBy": "6129094b-16d3-46d3-9e86-88b435fe8222",
+    "approvedOnUtc": "2024-10-03T08:01:51"
+  },
+  {
+    "id": 1485,
+    "entitySourceId": 1,
+    "name": "Moon Base",
+    "instrumentIds": [
+      2040
+    ],
+    "instruments": [
+      {
+        "id": 2040,
+        "name": "Moon Base",
+        "childIds": [],
+        "dealId": 1485,
+        "instrumentTypeId": 2,
+        "instrumentSubTypeId": 13,
+        "originalAmount": 1,
+        "currencyCode": "USD",
+        "maturityDate": "2040-01-01",
+        "issueDate": "2024-01-01",
+        "lienTypeId": 1,
+        "rateOptionIds": [],
+        "rateOptions": [],
+        "instrumentIdentifiers": [],
+        "amortizationIds": [],
+        "callPutScheduleItemIds": [],
+        "amortizations": [],
+        "callPutScheduleItems": [],
+        "lenderAllocations": [],
+        "facilityFeeIds": [],
+        "facilityFees": [],
+        "pikReducesUnfunded": false,
+        "createdOnUtc": "2024-10-30T07:14:23",
+        "updatedOnUtc": "2024-10-30T07:14:23",
+        "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+        "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+        "isUnitranche": false,
+        "unitrancheBuyOutOption": false,
+        "unitrancheRightForFirstRefusal": false,
+        "approvalStatus": 1
+      }
+    ],
+    "dealCustomerRoles": [
+      {
+        "id": 12058,
+        "dealId": 1485,
+        "roleId": 1,
+        "customerId": 2231
+      },
+      {
+        "id": 12059,
+        "dealId": 1485,
+        "roleId": 4,
+        "customerId": 1809
+      },
+      {
+        "id": 12060,
+        "dealId": 1485,
+        "roleId": 2,
+        "customerId": 1816
+      },
+      {
+        "id": 12061,
+        "dealId": 1485,
+        "roleId": 2,
+        "customerId": 1817
+      },
+      {
+        "id": 12062,
+        "dealId": 1485,
+        "roleId": 2,
+        "customerId": 1818
+      },
+      {
+        "id": 12063,
+        "dealId": 1485,
+        "roleId": 2,
+        "customerId": 1819
+      },
+      {
+        "id": 12064,
+        "dealId": 1485,
+        "roleId": 2,
+        "customerId": 1820
+      }
+    ],
+    "createdOnUtc": "2024-10-30T07:13:31",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "approvalStatus": 1
+  },
+  {
+    "id": 1489,
+    "entitySourceId": 1,
+    "name": "Moon Stone",
+    "instrumentIds": [
+      2041
+    ],
+    "instruments": [
+      {
+        "id": 2041,
+        "name": "Moon Stone 1",
+        "childIds": [],
+        "dealId": 1489,
+        "instrumentTypeId": 2,
+        "instrumentSubTypeId": 13,
+        "originalAmount": 1,
+        "currencyCode": "USD",
+        "maturityDate": "2040-01-01",
+        "issueDate": "2022-01-01",
+        "lienTypeId": 1,
+        "rateOptionIds": [],
+        "rateOptions": [],
+        "instrumentIdentifiers": [],
+        "amortizationIds": [],
+        "callPutScheduleItemIds": [],
+        "amortizations": [],
+        "callPutScheduleItems": [],
+        "lenderAllocations": [],
+        "facilityFeeIds": [],
+        "facilityFees": [],
+        "pikReducesUnfunded": false,
+        "createdOnUtc": "2024-10-30T07:37:17",
+        "updatedOnUtc": "2025-08-08T11:12:05",
+        "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+        "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+        "isUnitranche": false,
+        "unitrancheBuyOutOption": false,
+        "unitrancheRightForFirstRefusal": false,
+        "comment": "",
+        "approvalStatus": 1
+      }
+    ],
+    "dealCustomerRoles": [
+      {
+        "id": 12926,
+        "dealId": 1489,
+        "roleId": 11,
+        "customerId": 2227,
+        "transactionId": 396438
+      },
+      {
+        "id": 12927,
+        "dealId": 1489,
+        "roleId": 12,
+        "customerId": 1812,
+        "transactionId": 396438
+      },
+      {
+        "id": 12928,
+        "dealId": 1489,
+        "roleId": 11,
+        "customerId": 2227,
+        "transactionId": 396440
+      },
+      {
+        "id": 12929,
+        "dealId": 1489,
+        "roleId": 12,
+        "customerId": 1811,
+        "transactionId": 396440
+      },
+      {
+        "id": 13510,
+        "dealId": 1489,
+        "roleId": 4,
+        "customerId": 1785
+      },
+      {
+        "id": 13511,
+        "dealId": 1489,
+        "roleId": 1,
+        "customerId": 2233
+      },
+      {
+        "id": 13512,
+        "dealId": 1489,
+        "roleId": 2,
+        "customerId": 1816
+      },
+      {
+        "id": 13513,
+        "dealId": 1489,
+        "roleId": 2,
+        "customerId": 2227
+      },
+      {
+        "id": 13514,
+        "dealId": 1489,
+        "roleId": 16,
+        "customerId": 1935
+      }
+    ],
+    "createdOnUtc": "2024-10-30T07:35:18",
+    "updatedOnUtc": "2025-02-20T13:16:12",
+    "createdBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "updatedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "approvalStatus": 2,
+    "approvedBy": "b3a198c2-de6e-470c-a385-7f3edd4daf84",
+    "approvedOnUtc": "2025-07-01T05:52:31"
+  }
+]
