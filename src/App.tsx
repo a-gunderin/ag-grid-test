@@ -9,7 +9,7 @@ interface IRow {
   electric: boolean;
 }
 
-const GridExample = () => {
+const TransactionTable = () => {
   const [rowData] = useState<IRow[]>([
     { make: 'Tesla', model: 'Model Y', price: 64950, electric: true },
     { make: 'Ford', model: 'F-Series', price: 33850, electric: false },
@@ -32,7 +32,11 @@ const GridExample = () => {
 
   return (
     <>
-      <div style={{ width: '100%', height: '100%' }}>
+      <h1 className="p-3 text-lg text-gray-500 font-medium tracking-wider">
+        Transactions
+      </h1>
+
+      <div className="w-full h-full">
         <AgGridReact
           rowData={rowData}
           columnDefs={colDefs}
@@ -43,4 +47,4 @@ const GridExample = () => {
   );
 };
 
-export default GridExample;
+export default TransactionTable;
