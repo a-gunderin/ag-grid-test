@@ -3,27 +3,42 @@ import { useState } from 'react';
 import type { ColDef } from 'ag-grid-community';
 
 interface IRow {
-  make: string;
-  model: string;
-  price: number;
-  electric: boolean;
+  'Transaction Type': string;
+  Deal: string;
+  Instrument: string;
+  Customer: string;
+  Role: string;
+  'Payment Date': string;
+  'Effective Date': string;
+  CCY: string;
+  Amount: string;
 }
 
 const TransactionTable = () => {
   const [rowData] = useState<IRow[]>([
-    { make: 'Tesla', model: 'Model Y', price: 64950, electric: true },
-    { make: 'Ford', model: 'F-Series', price: 33850, electric: false },
-    { make: 'Toyota', model: 'Corolla', price: 29600, electric: false },
-    { make: 'Mercedes', model: 'EQA', price: 48890, electric: true },
-    { make: 'Fiat', model: '500', price: 15774, electric: false },
-    { make: 'Nissan', model: 'Juke', price: 20675, electric: false },
+    {
+      'Transaction Type': 'some',
+      Deal: 'some',
+      Instrument: 'some',
+      Customer: 'some',
+      Role: 'some',
+      'Payment Date': 'some',
+      'Effective Date': 'some',
+      CCY: 'some',
+      Amount: 'some',
+    },
   ]);
 
   const [colDefs] = useState<ColDef<IRow>[]>([
-    { field: 'make' },
-    { field: 'model' },
-    { field: 'price' },
-    { field: 'electric' },
+    { field: 'Transaction Type' },
+    { field: 'Deal' },
+    { field: 'Instrument' },
+    { field: 'Customer' },
+    { field: 'Role' },
+    { field: 'Payment Date' },
+    { field: 'Effective Date' },
+    { field: 'CCY' },
+    { field: 'Amount' },
   ]);
 
   const defaultColDef: ColDef = {
