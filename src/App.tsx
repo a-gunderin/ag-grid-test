@@ -1,6 +1,11 @@
 import { AgGridReact } from 'ag-grid-react';
 import { useState } from 'react';
 import type { ColDef } from 'ag-grid-community';
+import transactions_data from './data/transactions.json';
+import {
+  getDealByInstrumentId,
+  getTransactionTypeById,
+} from './utils/getTransactionData';
 
 interface IRow {
   'Transaction Type': string;
@@ -14,20 +19,22 @@ interface IRow {
   Amount: string;
 }
 
+const transactions = transactions_data.map((transaction) => {
+  return {
+    'Transaction Type': getTransactionTypeById(transaction.transactionTypeId),
+    Deal: getDealByInstrumentId(transaction.instrumentId),
+    Instrument: 'some',
+    Customer: 'some',
+    Role: 'some',
+    'Payment Date': 'some',
+    'Effective Date': 'some',
+    CCY: transaction.currencyCode,
+    Amount: 'some',
+  };
+});
+
 const TransactionTable = () => {
-  const [rowData] = useState<IRow[]>([
-    {
-      'Transaction Type': 'some',
-      Deal: 'some',
-      Instrument: 'some',
-      Customer: 'some',
-      Role: 'some',
-      'Payment Date': 'some',
-      'Effective Date': 'some',
-      CCY: 'some',
-      Amount: 'some',
-    },
-  ]);
+  const [rowData] = useState<IRow[]>(transactions);
 
   const [colDefs] = useState<ColDef<IRow>[]>([
     { field: 'Transaction Type' },
