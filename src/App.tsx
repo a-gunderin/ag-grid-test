@@ -3,8 +3,15 @@ import { useState } from 'react';
 import type { ColDef } from 'ag-grid-community';
 import transactions_data from './data/transactions.json';
 import {
-  getDealByInstrumentId,
-  getTransactionTypeById,
+  formatAmount,
+  getBankData,
+  getCustomerName,
+  getDealName,
+  getHierarchyPath,
+  getInstrumentName,
+  getPaymentDate,
+  getRoleName,
+  getTransactionTypeName,
 } from './utils/getTransactionData';
 
 interface IRow {
@@ -17,19 +24,25 @@ interface IRow {
   'Effective Date': string;
   CCY: string;
   Amount: string;
+  'Bank Account'?: string;
+  Bank?: string;
 }
 
 const transactions = transactions_data.map((transaction) => {
   return {
-    'Transaction Type': getTransactionTypeById(transaction.transactionTypeId),
-    Deal: getDealByInstrumentId(transaction.instrumentId),
-    Instrument: 'some',
-    Customer: 'some',
-    Role: 'some',
-    'Payment Date': 'some',
-    'Effective Date': 'some',
+    id: transaction.id,
+    path: getHierarchyPath(transaction.id),
+    'Transaction Type': getTransactionTypeName(transaction.transactionTypeId),
+    Deal: getDealName(transaction.instrumentId),
+    Instrument: getInstrumentName(transaction.instrumentId),
+    Customer: getCustomerName(transaction.customerId),
+    Role: getRoleName(transaction.instrumentId, transaction.customerId),
+    'Payment Date': getPaymentDate(transaction.instrumentId),
+    'Effective Date': transaction.effectiveDate,
     CCY: transaction.currencyCode,
-    Amount: 'some',
+    Amount: formatAmount(transaction.amount, transaction.currencyCode),
+    'Bank Account': getBankData(transaction.remittanceId).accountNumber,
+    Bank: getBankData(transaction.remittanceId).bankName,
   };
 });
 
@@ -37,15 +50,16 @@ const TransactionTable = () => {
   const [rowData] = useState<IRow[]>(transactions);
 
   const [colDefs] = useState<ColDef<IRow>[]>([
-    { field: 'Transaction Type' },
-    { field: 'Deal' },
-    { field: 'Instrument' },
-    { field: 'Customer' },
-    { field: 'Role' },
-    { field: 'Payment Date' },
-    { field: 'Effective Date' },
-    { field: 'CCY' },
-    { field: 'Amount' },
+    { field: 'Deal', filter: true },
+    { field: 'Instrument', filter: true },
+    { field: 'Customer', filter: true },
+    { field: 'Role', filter: true },
+    { field: 'Payment Date', filter: true },
+    { field: 'Effective Date', filter: true },
+    { field: 'CCY', filter: true },
+    { field: 'Amount', filter: true, cellClass: 'ag-right-aligned-cell' },
+    { field: 'Bank Account', filter: true },
+    { field: 'Bank', filter: true },
   ]);
 
   const defaultColDef: ColDef = {
@@ -63,6 +77,17 @@ const TransactionTable = () => {
           rowData={rowData}
           columnDefs={colDefs}
           defaultColDef={defaultColDef}
+          treeData={true}
+          animateRows={true}
+          getDataPath={(data) => data.path}
+          autoGroupColumnDef={{
+            headerName: 'Transaction Type',
+            field: 'Transaction Type',
+            filter: true,
+            cellRendererParams: { suppressCount: true },
+          }}
+          pagination={true}
+          paginationPageSize={20}
         />
       </div>
     </>

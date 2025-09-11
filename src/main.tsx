@@ -3,8 +3,9 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { AllCommunityModule, ModuleRegistry } from 'ag-grid-community';
 import TransactionTable from './App';
+import { TreeDataModule } from 'ag-grid-enterprise';
 
-ModuleRegistry.registerModules([AllCommunityModule]);
+ModuleRegistry.registerModules([AllCommunityModule, TreeDataModule]);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
