@@ -1,7 +1,7 @@
 import { AgGridReact } from 'ag-grid-react';
 import { useState } from 'react';
 import type { ColDef } from 'ag-grid-community';
-import transactions_data from './data/transactions.json';
+import transactions from './data/transactions.json';
 import {
   formatAmount,
   getBankData,
@@ -28,7 +28,7 @@ interface IRow {
   Bank?: string;
 }
 
-const transactions = transactions_data.map((transaction) => {
+const transactionsData = transactions.map((transaction) => {
   return {
     id: transaction.id,
     path: getHierarchyPath(transaction.id),
@@ -47,7 +47,7 @@ const transactions = transactions_data.map((transaction) => {
 });
 
 const TransactionTable = () => {
-  const [rowData] = useState<IRow[]>(transactions);
+  const [rowData] = useState<IRow[]>(transactionsData);
 
   const [colDefs] = useState<ColDef<IRow>[]>([
     { field: 'Deal', filter: true },
