@@ -1,5 +1,5 @@
 import { AgGridReact } from 'ag-grid-react';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { ColDef } from 'ag-grid-community';
 import transactions from './data/transactions.json';
 import {
@@ -67,9 +67,22 @@ const TransactionTable = () => {
     { field: 'Bank', filter: true },
   ]);
 
-  const defaultColDef: ColDef = {
-    flex: 1,
-  };
+  const defaultColDef = useMemo<ColDef>(
+    () => ({
+      flex: 1,
+    }),
+    []
+  );
+
+  const autoGroupColumnDef = useMemo(
+    () => ({
+      headerName: 'Transaction Type',
+      field: 'Transaction Type',
+      filter: true,
+      cellRendererParams: { suppressCount: true },
+    }),
+    []
+  );
 
   return (
     <>
@@ -85,12 +98,7 @@ const TransactionTable = () => {
           treeData={true}
           animateRows={true}
           getDataPath={(data) => data.path}
-          autoGroupColumnDef={{
-            headerName: 'Transaction Type',
-            field: 'Transaction Type',
-            filter: true,
-            cellRendererParams: { suppressCount: true },
-          }}
+          autoGroupColumnDef={autoGroupColumnDef}
           pagination={true}
           paginationPageSize={20}
         />
