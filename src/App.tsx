@@ -16,11 +16,11 @@ import {
 
 interface IRow {
   'Transaction Type': string;
-  Deal: string;
+  Deal?: string;
   Instrument: string;
   Customer: string;
   Role: string;
-  'Payment Date': string;
+  'Payment Date'?: string;
   'Effective Date': string;
   CCY: string;
   Amount: number;
@@ -32,12 +32,12 @@ const transactionsData = transactions.map((transaction) => {
   return {
     id: transaction.id,
     path: getHierarchyPath(transaction.id),
-    'Transaction Type': getTransactionTypeName(transaction.transactionTypeId),
+    'Transaction Type': getTransactionTypeName(transaction.id),
     Deal: getDealName(transaction.instrumentId),
     Instrument: getInstrumentName(transaction.instrumentId),
     Customer: getCustomerName(transaction.customerId),
-    Role: getRoleName(transaction.instrumentId, transaction.customerId),
-    'Payment Date': getPaymentDate(transaction.instrumentId),
+    Role: getRoleName(transaction.id),
+    'Payment Date': getPaymentDate(transaction.id),
     'Effective Date': transaction.effectiveDate,
     CCY: transaction.currencyCode,
     Amount: transaction.amount,
