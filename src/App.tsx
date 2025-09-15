@@ -23,7 +23,7 @@ interface IRow {
   'Payment Date': string;
   'Effective Date': string;
   CCY: string;
-  Amount: string;
+  Amount: number;
   'Bank Account'?: string;
   Bank?: string;
 }
@@ -40,7 +40,7 @@ const transactionsData = transactions.map((transaction) => {
     'Payment Date': getPaymentDate(transaction.instrumentId),
     'Effective Date': transaction.effectiveDate,
     CCY: transaction.currencyCode,
-    Amount: formatAmount(transaction.amount, transaction.currencyCode),
+    Amount: transaction.amount,
     'Bank Account': getBankData(transaction.remittanceId).accountNumber,
     Bank: getBankData(transaction.remittanceId).bankName,
   };
@@ -57,7 +57,12 @@ const TransactionTable = () => {
     { field: 'Payment Date', filter: true },
     { field: 'Effective Date', filter: true },
     { field: 'CCY', filter: true },
-    { field: 'Amount', filter: true, cellClass: 'ag-right-aligned-cell' },
+    {
+      field: 'Amount',
+      filter: 'agNumberColumnFilter',
+      cellClass: 'ag-right-aligned-cell',
+      valueFormatter: (params) => formatAmount(params.value, params.data!.CCY),
+    },
     { field: 'Bank Account', filter: true },
     { field: 'Bank', filter: true },
   ]);
